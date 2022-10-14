@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+html, body {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card-one, .card-twoo, .card-three {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card-one {
+    background-image: url('car-2.jpg');
+    min-height: 100vh;
+}
+
+.card-twoo {
+    background-image: url('car-1.jpg');
+    min-height: 400px;
+}
+
+.card-three {
+    background-image: url('car-3.jpg');
+    min-height: 400px;
+}
+
+.card-inner__text {
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+ .card-inner__text .border {
+    background: linear-gradient(to right,red, green , blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-style: italic;
+ }
+
+ .section {
+    text-align: center;
+    padding: 50 80px;
+ }
+ section h2 {
+    text-transform: uppercase;
+ }
+ section-light {
+    background-color: #f4f4f4;
+    color: #666;
+ }
+ section-dark {
+    border-color: rgb(92, 92, 92);
+    color: #ddd;
+ }
